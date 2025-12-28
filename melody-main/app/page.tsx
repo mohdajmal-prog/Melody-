@@ -14,14 +14,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Stunning Farm Background */}
-      <div
-        className="relative min-h-screen flex items-center justify-center"
-        style={{
-          backgroundImage: "url(/images/corn-field-sunset.jpeg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <div className="relative min-h-screen flex items-center justify-center bg-[url('/images/corn-field-sunset.jpeg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
 
         {/* Content */}
@@ -126,14 +119,7 @@ export default function LandingPage() {
             {/* Feature 1 - Transparency */}
             <Card className="border-2 hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div
-                  className="w-64 h-48 mx-auto mb-6 rounded-xl overflow-hidden"
-                  style={{
-                    backgroundImage: "url(/images/tractor-farm.jpeg)",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                />
+                <div className="w-64 h-48 mx-auto mb-6 rounded-xl overflow-hidden bg-[url('/images/tractor-farm.jpeg')] bg-cover bg-center" />
                 <h3 className="text-xl font-bold mb-3">100% Transparency</h3>
                 <p className="text-muted-foreground">
                   Every farmer verified with KYC. Watch video proof of your
@@ -145,14 +131,7 @@ export default function LandingPage() {
             {/* Feature 2 - Secure Payments */}
             <Card className="border-2 hover:shadow-xl transition-shadow">
               <CardContent className="p-6 sm:p-8 text-center">
-                <div
-                  className="w-48 h-32 sm:w-64 sm:h-48 mx-auto mb-6 rounded-xl overflow-hidden"
-                  style={{
-                    backgroundImage: "url(/images/delivery-concept.jpeg)",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                />
+                <div className="w-48 h-32 sm:w-64 sm:h-48 mx-auto mb-6 rounded-xl overflow-hidden bg-[url('/images/delivery-concept.jpeg')] bg-cover bg-center" />
                 <h3 className="text-lg sm:text-xl font-bold mb-3">
                   Escrow Protected
                 </h3>
@@ -166,14 +145,7 @@ export default function LandingPage() {
             {/* Feature 3 - Fast Delivery */}
             <Card className="border-2 hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <div
-                  className="w-64 h-48 mx-auto mb-6 rounded-xl overflow-hidden"
-                  style={{
-                    backgroundImage: "url(/images/delivery-truck.jpeg)",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                />
+                <div className="w-64 h-48 mx-auto mb-6 rounded-xl overflow-hidden bg-[url('/images/delivery-truck.jpeg')] bg-cover bg-center" />
                 <h3 className="text-xl font-bold mb-3">Live GPS Tracking</h3>
                 <p className="text-muted-foreground">
                   Know exactly where your order is. Real-time driver location,
